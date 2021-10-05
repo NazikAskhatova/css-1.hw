@@ -1,0 +1,16 @@
+h1 {
+color: rgb(0, 81, 255);
+background-color: gold;
+}
+
+.text-center {
+text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.bg-yellow {
+background-color: greenyellow;
+}
