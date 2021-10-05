@@ -18,3 +18,7 @@ background-color: greenyellow;
 .text-light {
 color: rebeccapurple;
 }
+
+.bg-dark {
+    color: maroon;
+}
