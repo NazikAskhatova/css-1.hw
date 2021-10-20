@@ -1,3 +1,12 @@
+body {
+    margin: 0;
+}
+
+
+div {
+    padding: 50px;
+}
+
 h1 {
 color: rgb(0, 81, 255);
 background-color: gold;
@@ -22,3 +31,166 @@ color: rebeccapurple;
 .bg-dark {
     color: maroon;
 }
+
+#div2 {
+    background-color: gold;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-left: 6px;
+    padding-right: 2px;
+    border: 5px ridge green;
+    /*margin: 30px auto;*/
+    
+}
+
+#div3 {
+    background-color: green;
+    border: 5px double greenyellow;
+    width: 100%;
+    margin: 30px;
+    margin-left: auto;
+    margin-bottom: -50px;
+} 
+
+#div4 {
+background-color: hotpink;
+padding: 0px 20px 0px;
+border: 5px inset peru;
+outline: 30px groove;
+}
+
+#div5 {
+    background-color: indigo;
+    border: 15px groove indianred;
+}
+
+#div6 {
+    background-color: lawngreen;
+    border: 10px ridge plum;
+}
+
+#div7 {
+    background-color: lightseagreen;
+    border: 20px outset goldenrod;
+}
+
+#div8 {
+    background-color: maroon;
+    border: 15px groove lightsalmon;
+}
+
+#div9 {
+    background-color: mediumseagreen;
+    border: 30px groove salmon;
+
+}
+
+#div10 {
+    background-color: navajowhite;
+    border: 25px groove lightskyblue;
+}
+
+#div {
+    background-color: olive;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-left: 2px;
+    padding-right: 6px;
+    border: 20px double lime;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: red;
+    background-color: green;
+}
+
+div:hover {
+    font-size: x-large;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+div:active {
+    font-weight: bold;
+}
+
+li:first-child {
+    background-color: red;
+}
+
+li:last-child {
+    background-color: red;
+}
+
+li:nth-child(5) {
+    background-color: olive;
+}
+
+li:nth-last-child(5) {
+background-color: olive;
+}
+
+li:nth-child(even) {
+    background-color: orange;
+}
+
+li:nth-child(odd) {
+    background-color: olive;
+}
+
+li:nth-child(3n+5) {
+    font-weight: bold;
+}
+
+p:first-of-type {
+    background-color: orangered;
+}
+
+p:last-of-type {
+    background-color: orchid;
+}
+
+p:nth-of-type(2) {
+    background-color: palegreen;
+}
+
+p:nth-last-of-type(2) {
+background-color: paleturquoise;
+}
+
+p:nth-of-type(even) {
+    font-weight: bold;
+}
+
+p:nth-of-type(odd) {
+    text-decoration: underline;
+}
+
+img:nth-of-type(even) {
+    float: right;
+    margin-left: 20px;
+}
+
+img:nth-of-type(odd) {
+    float: left;
+    margin-right: 20px;
+}
+
+img:hover {
+    border: 2px solid gray;
+}
+
+img:active {
+    border: 2px dashed gray;
+}
+
+img {
+    border: 2px solid transparent;
+}
+
